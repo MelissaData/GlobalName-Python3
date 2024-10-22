@@ -37,8 +37,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Download this project
 ```
-$ git clone https://github.com/MelissaData/GlobalName-Python3
-$ cd GlobalName-Python3
+git clone https://github.com/MelissaData/GlobalName-Python3
+cd GlobalName-Python3
 ```
 
 ## Windows
@@ -78,15 +78,15 @@ There are two modes:
 
 	The script will prompt the user for input(s), then use the provided input(s) to call the Cloud API. For example:
 	```
-	$ .\GlobalNamePython3.ps1
+	.\GlobalNamePython3.ps1
 	```
 
 - Command Line 
 
 	You can pass a full name and a license string into `-fullname` and `-license` parameters respectively to test the Cloud API. For example: 
 	```
-    $ .\GlobalNamePython3.ps1 -fullname "Raymond Melissa" 
-    $ .\GlobalNamePython3.ps1 -fullname "Raymond Melissa" -license "<your_license_string>"
+    .\GlobalNamePython3.ps1 -fullname "Raymond Melissa" 
+    .\GlobalNamePython3.ps1 -fullname "Raymond Melissa" -license "<your_license_string>"
     ```
 
 This is the expected output from a successful setup for interactive mode:
@@ -136,15 +136,15 @@ There are two modes:
 
 	The script will prompt the user for input(s), then use the provided input(s) to call the Cloud API. For example:
 	```
-	$ ./GlobalNamePython3.sh
+	./GlobalNamePython3.sh
 	```
 
 - Command Line 
 
 	You can pass a full name and a license string into `--fullname` and `--license` parameters respectively to test the Cloud API. For example: 
 	```
-    $ ./GlobalNamePython3.sh --fullname "Raymond Melissa" 
-    $ ./GlobalNamePython3.sh --fullname "Raymond Melissa" --license "<your_license_string>"
+    ./GlobalNamePython3.sh --fullname "Raymond Melissa" 
+    ./GlobalNamePython3.sh --fullname "Raymond Melissa" --license "<your_license_string>"
     ```
 
 This is the expected output from a successful setup for interactive mode:
